@@ -25,7 +25,11 @@
 
 - [Node.js](https://nodejs.org) v8.11 or greater
 
+
+
 ### Run the app
+
+
 
 ```
 npm install
@@ -40,9 +44,11 @@ await apiService.setUrls({
     api: isDev ? 'http://mylocalapi' : null,
     identity: isDev ? 'http://mylocalidentity' : null,
 });
+
 ```
 
 If you want to point the development web vault to the production APIs, you can set:
+
 
 ```typescript
 await apiService.setUrls({
@@ -53,7 +59,14 @@ await apiService.setUrls({
 ```
 
 
+
+
+
+
 ## Contribute
+
+
+
 
 Code contributions are welcome! Please commit any pull requests against the `master` branch.
 
